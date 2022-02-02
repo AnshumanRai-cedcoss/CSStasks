@@ -20,7 +20,9 @@
        .silver-background{
            background-color: silver;
        }
-       }
+       #cat-photo-form{
+    background-color:green;
+  }
     </style>
 </head>
 <body><div class="silver-background">
@@ -29,6 +31,9 @@
 
     <img class="smaller-image thick-green-border" src="https://image.shutterstock.com/image-photo/rottweiler-puppy-siting-on-floor-260nw-1571922172.jpg" alt="Rottweiler">
 </div>
-<form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">This is a form element</form>
+<form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+</form>
 </body>
 </html>

@@ -8,32 +8,41 @@
     <!--Calling google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <style>
-       .smaller-image{
-           width:100px;
-       }
-       .thick-green-border{
-           border-width: 10px;
-           border-style: solid;
-           border-color: green;
-           border-radius: 10px;
-       }
-       .silver-background{
-           background-color: silver;
-       }
-       #cat-photo-form{
-    background-color:green;
+     .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
   }
     </style>
 </head>
-<body><div class="silver-background">
-    <h2>This is a heading</h2>
-    <p>This is paragraph</p>
+<body>
+    <h5 class="injected-text">margin</h5>
 
-    <img class="smaller-image thick-green-border" src="https://image.shutterstock.com/image-photo/rottweiler-puppy-siting-on-floor-260nw-1571922172.jpg" alt="Rottweiler">
-</div>
-<form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
-    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-</form>
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
 </body>
 </html>
